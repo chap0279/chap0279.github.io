@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Forms</title>
+		<meta name="keywords" content="HTML, HTML5, Advanced HTML, New Tags, Special Tags">
+	</head>
+	
+	<body>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<header id="header">
+			<h1>Form Information</h1>
+		</header>
+
+	<main id="main">
+		<h2>Personal Information</h2>
+
+		<div id="wrapper" class="wrapper">
+			<section id="html-forms" class="main-section">
+				<form action="formpage.php" method="get">
+					
+					<div id="fullname-container" class="form-elm">
+						<label for="Firstname">First Name</label>
+						<input type="text" name="Firstname" id="Firstname" placeholder="First name here">
+						<label for="Lastname">Last Name</label>
+						<input type="text" name="Lastname" id="Lastname" placeholder="Last name here">
+					</div><br id=fullname-br>
+					
+					<div id="bday-container" class="form-elm">
+						<label for="dte">Date of Birth</label>
+						<input type="date" name="dte" value="dte">
+					</div><br id=bday-br>
+					
+					<div id="gender-container" class="form-elm">
+						<label for="gender">Gender</label><br>
+						<input type="radio" name="gender" value="male" checked> Male<br>
+						<input type="radio" name="gender" value="female" checked> Female<br>
+						<input type="radio" name="gender" value="other" checked> Other<br>
+					</div>
+
+				<h2>Contact Info</h2>
+				
+					<div id="mobile-container" class="form-elm">
+						<label for="tel">Mobile Number:</label>
+						<input type="tel" name="usrtel">
+					</div><br>
+					
+					<div id="email-container" class="form-elm">
+						<label for="email">Email:</label>
+						<input type="email" id="email" value="user@mail.com" readonly>
+					</div><br>
+					
+					<div id="pass-container" class="form-elm">
+						<label for="pass">Password:</label>
+						<input type="password" name="pass" id="pass" required>
+					</div><br>
+					
+					<div id="address-container" class="form-elm">
+						<label for="address">Address:</label>
+						<input type="text" name="address" value="Address">
+					</div>
+
+					<div id="city-container" class="form-elm">
+						<label for="city">City:</label>
+						<input type="text" name="city" value="City">
+					</div>
+					
+					<div id="region-container" class="form-elm">
+						<label for="Region">Region:</label>
+						<select id="Region" name="Region">
+							<optgroup label="Province">
+								<option value="Alberta">AB</option>
+								<option value="Ontario">ON</option>
+								<option value="Québec">QC</option>
+							</optgroup>
+							<optgroup label="State">
+								<option value="New York">NY</option>
+								<option value="Pennsylvania">PA</option>
+								<option value="Texas">TX</option>
+							</optgroup>
+						</select>
+					</div>
+					
+					<div id="country-container" class="form-elm">
+						<label for="country">Country:</label>
+						<select id="Country" name="Country">
+							<option value="Canada">Canada</option>
+							<option value="USA">USA</option>
+						</select>
+					</div>
+
+					<div id="code-container" class="form-elm">
+						<label for="postalcode-zipcode">Postal Code / Zip Code:</label>
+						<input type="text" name="postal code" value="Postal Code / Zip Code">
+					</div>
+
+				<h2>Other Information</h2>
+					
+					<div id="intro-container" class="form-elm">
+						<label for="introduction">Introductory Text</label>
+						<textarea name="introduction" id="introduction" placeholder="Enter introduction here">
+							Introduce yourself here
+						</textarea>
+					</div><br>
+					
+					<div id="hobbies-container" class="form-elm">
+					
+					<h3>Hobbies and Interests</h3>
+						
+						<label for="music">
+						<input type="checkbox" name="hobbies" id="music" value="music">Music
+						</label><br>
+						<label for="dance">
+						<input type="checkbox" name="dance" id="dance" value="dance">Dance
+						</label><br>
+						<label for="sports">
+						<input type="checkbox" name="sports" id="sports" value="sports">Sports
+						</label><br>
+					</div><br>
+					
+					<h3>Website</h3>
+					
+					<div id="url-container" class="form-elm">
+						<label for="ur">Enter a URL:</label>
+						<input type="url" name="ur" id="ur"><br>
+					</div>
+
+				</form>
+			</section>
+		</div>
+	</main>	
+	</body>
+</html>
