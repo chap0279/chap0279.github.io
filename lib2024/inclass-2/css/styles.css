@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+body {
+	background-image: url("../img/circles-dark.png");
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+header {
+	height: 330px;
+	background: blue;
+	opacity: 0.5;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+}
+
+#main-article {
+	padding: 5px;
+	width: 60%;
+	background: white;
+}
+
+#main-aside {
+	float: right;
+	padding: 5px;
+	width: 40%;
+	background: white;
+	font-family: 'Font Awesome 5 Free', sans-serif;
+	
+}
+
+#img-aside {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.box-second {
+	font-style: italic;
+	color: blue;
+}
+
+footer {
+	height: 100px;
+	background: blue;
+	opacity: 0.5;
+	margin-top: 333px;
+}
+
