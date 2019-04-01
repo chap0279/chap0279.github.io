@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+	margin: auto;
+	width: 800px;
+	height: 1100px;
+}
+
+header {
+	text-align: center;
+}
+
+#target-heading {
+	display: inline-block;
+}
+
+#image-heading {
+	display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	text-align: center;	
+}
+
+th, td {
+	text-align: left;
+	padding-left: 8px;
+}
