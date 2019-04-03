@@ -1,0 +1,37 @@
+#container {
+	width: 1000px
+	background: #45B5D2;
+	margin: 0 auto;
+}
+
+section {
+	background: #006E10;
+	position: relative;
+}
+
+.box {
+	width: 200px;
+	height: 120px;
+	padding-top: 80px;
+	text-align: center;
+	background: skyblue;
+	font-size: 30px;
+	border: 2px solid #666;
+	border-radius: 50%;
+}
+
+.box {
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+
+.a {
+	position: absolute;
+	top: 50%
+	left: 50%;
+	z-index: 1;
+	margin-top: 200px;
+	margin-left: 550px;
+}
